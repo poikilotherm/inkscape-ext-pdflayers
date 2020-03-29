@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Multipage PDF from layers</name>
+    <id>name.bertuch.oliver.pdflayers</id>
+    <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
+    <dependency type="executable" location="extensions">bin/inkscape-ext-pdflayers.py</dependency>
+    <output>
+        <extension>.pdf</extension>
+        <mimetype>application/pdf</mimetype>
+        <filetypename>Portable Document Format (*.pdf) (one page per layer with fixed background)</filetypename>
+        <filetypetooltip>Creates a PDF file with one page per layer, mixing in fixed layers as background.</filetypetooltip>
+        <dataloss>true</dataloss>
+    </output>
+    <script>
+        <command reldir="extensions" interpreter="python">bin/inkscape-ext-pdflayers.py</command>
+    </script>
+</inkscape-extension>
