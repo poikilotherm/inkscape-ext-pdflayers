@@ -26,3 +26,9 @@ Every other layer is added in order to the resulting PDF as a single page.
 
 After installation of the extension, simply save your SVG drawing as a PDF
 with the "one page per layer" option. Be prepared (read above).
+
+## Credits
+
+Thank you to the great inkscape community and [@sizmailov](https://github.com/sizmailov).
+Thank you [@doctormo](https://github.com/doctormo) for a nice new extension API.
+Your help on getting this little pioneer plugin going is very much appreciated!
