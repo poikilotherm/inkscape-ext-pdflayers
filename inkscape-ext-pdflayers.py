@@ -53,7 +53,7 @@ class Layers_Multipage_PDF_Export(TempFileMixin, inkex.OutputExtension):
             node.style.update("display:inherit;opacity:1")
 
             name = node.get('inkscape:label')
-            newname = "{}.{}".format(name, self.options.type)
+            newname = "{}.{}".format(name, 'pdf')
             # Save snapshot as PDF export in temp file
             filename = take_snapshot(self.document, dirname=self.tempdir,
                                         name=name, ext='pdf')
