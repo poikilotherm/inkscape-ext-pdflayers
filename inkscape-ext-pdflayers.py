@@ -27,7 +27,7 @@ from inkex.command import take_snapshot
 
 import PyPDF2
 
-class Layers_Multipage_PDF_Export(TempFileMixin, inkex.OutputExtension):
+class Layers_Multipage_PDF_Export(TempDirMixin, inkex.OutputExtension):
 
     dir_prefix = 'multipagePDF-'
 
