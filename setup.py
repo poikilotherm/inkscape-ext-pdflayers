@@ -74,6 +74,6 @@ setup(
 
     python_requires='>=3.5',
     install_requires=[
-        'PyPDF2==1.27.5'
+        'PyPDF2==1.27.9'
     ],
 )
